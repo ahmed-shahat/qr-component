@@ -1,0 +1,55 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsla(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --main-font: "Outfit", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-height: 100dvh;
+  background-color: var(--Grayish-blue);
+  font-family: var(--main-font);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border-radius: 1.2rem;
+}
+.container {
+  width: 31rem;
+
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 1.5rem 1.2rem;
+  background-color: var(--White);
+}
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--Dark-blue);
+  padding: 1rem;
+  color: var(--Dark-blue);
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--Grayish-blue);
+  padding: 0 1rem 1rem;
+  margin: 0 1rem 1rem;
+}
